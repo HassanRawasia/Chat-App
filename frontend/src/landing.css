@@ -1,0 +1,56 @@
+.background {
+    background-color: rgb(147, 215, 235);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 25vw;
+    height: 35vh;
+    margin-top: 20vh;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+    /* margin: auto; */
+}
+
+.username {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 60%;
+    border: 0;
+    border-radius: 40px;
+    font-size: 14px;
+    color: black;
+    padding: 4px 15px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.join {
+    display: block;
+    margin: auto;
+    margin-top: 2.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* width: 60%; */
+    padding: 5px 14px;
+    border: 0;
+    border-radius: 40px;
+    background-color: rgb(15, 149, 238);
+    color: white;
+}
+
+.join:hover {
+    background-color: rgb(4, 135, 223);
+}
